@@ -123,6 +123,31 @@ h1 {
   color: #D10024;
 }
 
+.header-bottom {
+  background-color: #FFF;
+  border-bottom: 2px solid #1E1F29;
+  border-top: 3px solid #D10024;
+}
+.header-bottom ul {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  justify-content: left;
+  padding: 1rem 0;
+}
+.header-bottom ul li {
+  margin-right: 1.3rem;
+}
+.header-bottom ul li a {
+  color: #2B2D42;
+  border-bottom: 2px solid transparent;
+}
+.header-bottom ul li a:hover {
+  color: #D10024;
+  border-color: #D10024;
+}
+
 .btn {
   padding: 8px 15px;
   height: 40px;
